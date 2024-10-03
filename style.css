@@ -293,7 +293,7 @@ main {
 }
 
 .cart_section {
-    display: flex;
+    /* display: flex; */
     display: none;
     margin-top: 30px;
 }
@@ -557,6 +557,8 @@ footer {
     gap: 6px;
 
 }
+
+
 
 .secured {
     display: flex;
@@ -838,7 +840,7 @@ footer {
 
 @media (max-width: 800px) {
     .cart_main {
-        display: flex;
+        /* display: flex; */
         gap: 30px;
     }
     .cart_text {

@@ -130,10 +130,9 @@ let FoodApp = () => {
 FoodApp();
 
 function like(key) {
-    // Toggle the liked state
+
     products[key].liked = !products[key].liked;
 
-    // Find the heart icon and update its class
     let heartIcon = document.querySelector(`#heart-${key}`);
     if (products[key].liked) {
         heartIcon.classList.remove('fa-regular');
